@@ -1,0 +1,100 @@
+/* &display=swap */
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+/* ================================================================ */
+.wrapper {
+	max-width: 1470px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+/* ================================================================ */
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #f5f5f5;
+}
+
+.header{
+	color: black;
+	margin: 0px 0px 100px 0px;
+	text-align: center;
+	font-size: 36px;
+}
+.main {
+}
+.who-we-are{
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.who-we-are__container{
+	background: #5D62B5;
+	border-radius: 40px;
+	padding: 100px 0 0 87px;
+	position: relative;
+}
+.who-we-are__container::before {
+	content: "";
+	display: inline-block;
+	background: url('../img/fon.svg') 0 0 no-repeat;
+	position: absolute;
+	top: -109px;
+	right: -69px;
+	height: 317px;
+	width: 201px;
+}
+.who-we-are__content{
+	position: relative;
+	max-width: 583px;
+	margin: 0px 0px 36px 0px;
+}
+.who-we-are__subtitle{
+	position: relative;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 2;
+	padding: 0px 0px 0px 33px;
+	margin: 0px 0px 33px 0px;
+}
+.who-we-are__subtitle::before{
+	content: "";
+	display: inline-block;
+	background: url('../img/icon.svg') 0 0 no-repeat;
+	position: absolute;
+	top: -2px;
+	left: 0;
+	width: 17px;
+	height: 20px;
+}
+.who-we-are__title{
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 1.17;
+	color: #FFFFFF;
+}
+.who-we-are__text{
+	letter-spacing: 0.15px;
+	margin: 0 0 54px 0;
+	padding: 0px 87px 0px 0px;
+}
+.who-we-are__image{
+	position: relative;
+}
+.who-we-are__image::before{
+	content: "";
+	background: url('../img/fondog.svg') 0 0 no-repeat;
+	position: absolute;
+	top: -45px;
+	left: -37px;
+	height: 371px;
+	width: 553px;
+}
+.image__dog{
+	position: relative;
+	border-radius: 40px;
+	margin-bottom: -150px;
+}
